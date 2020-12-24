@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ورود به سایت</title>
+    <!-- Load CSS Files -->
+    <link rel="stylesheet" href="../css/font.css" />
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-rtl.min.css" />
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body class="rtl">
+    <div id="contentPanel" class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <img class="img-fluid mx-auto d-block" id="loginpic" src="../images/loginpic.png" alt="آیکن ورود">
+            </div>
+            <div id="divForm" class="col-sm-7">
+                <form action="login.php" method="POST">
+                    <div class="form-group">
+                        <label for="">نام کاربری</label>
+                        <input class="form-control" type="text" name="username" required placeholder="نام کاربری">
+                    </div>
+                    <div class="form-group">
+                        <label for="">رمز عبور</label>
+                        <input class="form-control" type="password" name="password" required placeholder="رمز عبور">
+                    </div>
+                    <button type="submit" class="btn-lg btn-success"> ورود به سایت</button>
+                    <button type="reset" class="btn-lg btn-warning">پاک کردن</button>
+                    <br><br>
+                    <a id="registerBtn" href="#" class="btn-lg btn-primary btn-block" role="button">ثبت نام</a>
+                </form>
+            </div>
+        </div>
+    </div>
+     
+</body>
+</html>

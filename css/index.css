@@ -1,0 +1,54 @@
+body{
+    font-family: shabnam;
+}
+#header_row{
+    background-image: url(../images/header.png);
+    background-size: cover;
+    height: 300px;
+}
+
+#headerTitle1 ,#headerTitle2{
+    color: white;
+    padding-top: 25px;
+    padding-right: 15px;
+    text-shadow: 1px 1px red;
+
+}
+#headerTitle2{
+
+    padding-right: 100px;
+
+}
+
+/* **************** Footer Styles ******************* */
+
+#footer{
+    background-color: #333;
+}
+
+footer h3{
+    color: white;
+}
+#footerText1, #footerText2{
+    padding-top: 25px;
+    padding-right: 10px;
+}
+
+#socialIcons ul li a{
+    color: white;
+    margin-right: 5px;
+}
+
+#socialIcons ul li a:hover{
+    color: rgb(108, 231, 50);
+}
+
+#loginLink{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding-right: 10px;
+}
+#loginLink:hover{
+    color: rgb(108, 231, 50);
+}
